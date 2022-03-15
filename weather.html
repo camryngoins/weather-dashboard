@@ -22,9 +22,6 @@
                     <div class="input-group-append m-1">
                         <button type="button" class="btn btn-primary text-light" id="searchButton"><span class="oi oi-magnifying-glass"></span></button>
                     </div>
-                    <div>
-                        <h3 id="cityName" class="m-1"></h3>
-                    </div>
                 </div>
                 <button class="btn btn-primary" type="button" id="clearHistory">Clear History</button>
                 <ul class="list-group">
@@ -34,7 +31,9 @@
             <div class="col-sm-8">
                 <div class="row ml-2 border border-dark rounded m-1">
                     <div class="col-sm-12" id="currentWeather">
-                        <h3 class="city-name mb-1 mt-2 bolder" id="currentCity"></h3>
+                        <h3 class="city-name mb-1 mt-2 bolder" id="cityName"></h3>
+                        <img class="img" src="" alt="">
+                        <h4 class="mb-1 mt-2 bolder" id="currentDate"></h4>
                         <p>Temperature:<span class="current" id="temperature"></span></p>
                         <p>Humidity:<span class="current" id="humidity"></span</p>
                         <p>Wind Speed:<span class="current" id="windSpeed"></span</p>
@@ -47,35 +46,35 @@
                     <div class="row text-light">
                         <div class="col-sm-2 bg-primary forecast text-white m-1 rounded">
                             <p id="day1"></p>
-                            <p id="img1"></p>
+                            <img id="img1" src="" alt="">
                             <p>Temp:<span id="temp1"></span></p>
                             <p>Humidity:<span id="humidity1"></span></p>
                         </div>
                         <!-- Day 2 -->
                         <div class="col-sm-2 bg-primary forecast text-white m-1 rounded">
                             <p id="day2"></p>
-                            <p id="img2"></p>
+                            <img id="img2" src="" alt="">
                             <p>Temp:<span id="temp2"></span></p>
                             <p>Humidity:<span id="humidity2"></span></p>
                         </div>
                         <!-- Day 3 -->
                         <div class="col-sm-2 bg-primary forecast text-white m-1 rounded">
                             <p id="day3"></p>
-                            <p id="img3"></p>
+                            <img id="img3" src="" alt="">
                             <p>Temp:<span id="temp3"></span></p>
                             <p>Humidity:<span id="humidity3"></span></p>
                         </div>
                         <!-- Day 4 -->
                         <div class="col-sm-2 bg-primary forecast text-white m-1 rounded">
                             <p id="day4"></p>
-                            <p id="img3"></p>
+                            <img id="img4" src="" alt="">
                             <p>Temp:<span id="temp4"></span></p>
                             <p>Humidity:<span id="humidity4"></span></p>
                         </div>
                         <!-- Day 5 -->
                         <div class="col-sm-2 bg-primary forecast text-white m-1 rounded">
                             <p id="day5"></p>
-                            <p id="img5"></p>
+                            <img id="img5" src="" alt="">
                             <p>Temp:<span id="temp5"></span></p>
                             <p>Humidity:<span id="humidity5"></span></p>
                         </div>
