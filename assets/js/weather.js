@@ -101,4 +101,3 @@ var displayWeather = function(data) {
 
 
 
-
