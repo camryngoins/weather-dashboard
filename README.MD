@@ -20,3 +20,4 @@ GitHub Repository Link: https://github.com/camryngoins/weather-dashboard
 Deployed Web Application Link: https://camryngoins.github.io/weather-dashboard/weather.html
 
 ## Screenshot 
+![weather screenshot](https://user-images.githubusercontent.com/96854206/159163413-96a60b20-63f2-4fdc-8f97-7cf3ce225f81.png)
